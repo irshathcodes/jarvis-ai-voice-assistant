@@ -32,7 +32,9 @@ you can install these libraries using the command prompt or any IDE terminal
 ### To install these libraries or modules
 you can google the library name and visit the official python website. then you can copy
 the library name and install it using 
-### pip install nameOfTheLibrary
+
+pip install nameOfTheLibrary
+
 
 
 
