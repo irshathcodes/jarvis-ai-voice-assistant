@@ -194,7 +194,7 @@ def runJarvis():
             s.starttls()
 
             # Authentication
-            s.login("irshath700@gmail.com", "irshath007007")
+            s.login("hello@gmail.com", "password1234")
             # message to be sent
             # message send through command
             # sending the mail
@@ -210,7 +210,7 @@ def runJarvis():
             talk("Okay bye have a good day")
             break
         elif "what is your name" in command:
-            talk("I am jarvis  Irshad's voice assistant")
+            talk("I am jarvis  your voice assistant")
         else:
             print("Please say that again")
 
