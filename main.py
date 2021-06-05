@@ -25,7 +25,7 @@ def greet():
         talk("Good morning")
     elif hour >= 12 and hour < 17:
         talk("Good Afternoon")
-    elif hour >= 17 and hour < 20:
+    elif hour >= 16 and hour < 20:
         talk("Good evening")
     talk("I am jarvis what can i do for you")
 
@@ -49,7 +49,7 @@ def take_command():
 
 def runJarvis():
     while True:
-        command = take_command().lower()
+        command = take_command().lower() 
 
         if "play" in command:
             remove_play = command.replace("play", "")
