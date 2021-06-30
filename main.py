@@ -6,8 +6,7 @@ import wikipedia
 import pyjokes
 import webbrowser
 import os
-import python_weather
-import requests, json
+import requests
 import smtplib
 
 t2sEngine = pyttsx3.init()  # for output(system voice)
