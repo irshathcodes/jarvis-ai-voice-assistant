@@ -107,13 +107,7 @@ def runJarvis():
             talk("opening visual studio code")
             camera_path = "C:\\Users\\Irshathl\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(camera_path)
-        elif "can i hear a song" in command:
-            music_dir = "D:\\songs"
-            talk("playing song")
-            songs = os.listdir(music_dir)
-            print(songs)
-            os.startfile(os.path.join(music_dir, songs[0]))
-
+      
         elif "search" in command:
             remove_search = command.replace("search", "")
             talk("searching" + remove_search)
