@@ -18,6 +18,7 @@ def talk(text):
     t2sEngine.runAndWait()
 
 
+
 def greet():
     hour = int(datetime.datetime.now().hour)
     if hour >= 0 and hour < 12:
@@ -79,12 +80,9 @@ def runJarvis():
             jokes = pyjokes.get_joke()
             print(jokes)
             talk(jokes)
-        elif "assalamu alaikum" in command:
-            print("Walaikum salaam warahmathullaahi wabarakathuhu")
-            talk("Walaikum salaam warahmathullaahi wabarakathuhu")
         elif "how are you" in command:
-            print("Alhamdullilah i am pretty good")
-            talk("Alhamdullillah i am pretty good")
+            print("I am good :)")
+            talk("I am good")
         elif "hai" in command:
             print("Hello there")
             talk("Hello there")
