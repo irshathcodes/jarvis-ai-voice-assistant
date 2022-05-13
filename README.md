@@ -86,9 +86,6 @@ example: what day is today
 “joke” – tells you a english joke
 example: tell me a joke
 
-“assalamu alaikum” – replies “walaikum salaam”
-
-“how are you” – replies “alhamdhullilah”
 
 “hai” – replies “hello there”
 
